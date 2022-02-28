@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--Tiene que estar siempre en la carpeta resources-->
+<!--https://docs.jboss.org/hibernate/stable/annotations/reference/en/html/ch01.html-->
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://localhost:3306/torneo</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">123456</property>
+        <property name="show_sql">false</property>
+        
+        
+        <mapping class="entidades.Jugador"/>
+        <mapping class="entidades.Partida"/>
+    </session-factory>
+</hibernate-configuration>
+
+
+
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD//EN"-->
+<!--        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+<!--<session-factory>-->
+<!--    <property name="connection.url">jdbc:mysql://vps456458.ovh.net:3306/TORNEO</property>-->
+<!--    <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>-->
+<!--    <property name="connection.username">alumnoPA</property>-->
+<!--    <property name="connection.password">ivAGg7Ll</property>-->
+<!--    <property name="show_sql">true</property>-->
+
+
+<!--    <mapping class="entidades.Jugador"/>-->
+<!--    <mapping class="entidades.Partida"/>-->
+<!--</session-factory>-->
+<!--</hibernate-configuration>-->
