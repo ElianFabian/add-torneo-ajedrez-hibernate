@@ -17,22 +17,3 @@
         <mapping class="entidades.Partida"/>
     </session-factory>
 </hibernate-configuration>
-
-
-
-<!--<!DOCTYPE hibernate-configuration PUBLIC-->
-<!--        "-//Hibernate/Hibernate Configuration DTD//EN"-->
-<!--        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
-<!--<hibernate-configuration>-->
-<!--<session-factory>-->
-<!--    <property name="connection.url">jdbc:mysql://vps456458.ovh.net:3306/TORNEO</property>-->
-<!--    <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>-->
-<!--    <property name="connection.username">alumnoPA</property>-->
-<!--    <property name="connection.password">ivAGg7Ll</property>-->
-<!--    <property name="show_sql">true</property>-->
-
-
-<!--    <mapping class="entidades.Jugador"/>-->
-<!--    <mapping class="entidades.Partida"/>-->
-<!--</session-factory>-->
-<!--</hibernate-configuration>-->
